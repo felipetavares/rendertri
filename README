@@ -19,7 +19,7 @@ da álgebra:
 	* Interpolação linear
 	* Transformação de perspectiva
 	
-	Para a apresentação dos resultados é ultilizada a biblioteca SDL.
+	Para a apresentação dos resultados é ultilizada a biblioteca do X11.
 	
 	Todo o trabalho está sendo desenvolvido na linguagem c++.
 
