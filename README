@@ -1,0 +1,34 @@
+RenderTRI - Trabalho de Conclusão de Curso - TCC
+
+Autor: Felipe Tavares
+
+ESTE SOFTWARE É ENTIRAMENTE DISTRBUIDO SOB A LICENÇA GPL 3
+
+	O RenderTRI é um sitema de software com a finalidade de transformar
+um mundo 3d em uma série de pontos sobre uma superfície 2d.
+	Para obter essa funcionalidade são ultilizadas vários tipos de elementos
+da álgebra:
+	
+	* Matrizes Quadradas da 4° dimensão
+	* Vetores de 4 posições
+	* Vetores de 3 posições (Ultilizados para representar pontos)
+	* Vetores de 2 posições (Ultilizados para representar pontos)
+
+	E além disso ultiliza-se dois tipos principais de transformações:
+	
+	* Interpolação linear
+	* Transformação de perspectiva
+	
+	Para a apresentação dos resultados é ultilizada a biblioteca SDL.
+	
+	Todo o trabalho está sendo desenvolvido na linguagem c++.
+
+	Nesta versão o demo mostra:
+
+		* Texturização (com perspetiva corrigida)
+		* Colorização
+		* Fragment shaders
+		
+	O demo está localizado na pasta src/ri1.0
+
+Last File Change - 5/06/2013
