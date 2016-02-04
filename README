@@ -1,34 +1,41 @@
-RenderTRI - Trabalho de Conclusão de Curso - TCC
+# RenderTRI
 
-Autor: Felipe Tavares
+RenderTRI is a software(CPU) rendering system built from the ground up that works on the X11 platform (its only dependency).
 
-ESTE SOFTWARE É ENTIRAMENTE DISTRBUIDO SOB A LICENÇA GPL 3
+Some .obj files begin rendered:
 
-	O RenderTRI é um sitema de software com a finalidade de transformar
-um mundo 3d em uma série de pontos sobre uma superfície 2d.
-	Para obter essa funcionalidade são ultilizadas vários tipos de elementos
-da álgebra:
-	
-	* Matrizes Quadradas da 4° dimensão
-	* Vetores de 4 posições
-	* Vetores de 3 posições (Ultilizados para representar pontos)
-	* Vetores de 2 posições (Ultilizados para representar pontos)
+![Screen 1][1]
+![Screen 2][2]
+![Screen 3][3]
+![Screen 4][4]
 
-	E além disso ultiliza-se dois tipos principais de transformações:
-	
-	* Interpolação linear
-	* Transformação de perspectiva
-	
-	Para a apresentação dos resultados é ultilizada a biblioteca do X11.
-	
-	Todo o trabalho está sendo desenvolvido na linguagem c++.
+Z-Buffer visualization:
 
-	Nesta versão o demo mostra:
+![Screen 5][5]
 
-		* Texturização (com perspetiva corrigida)
-		* Colorização
-		* Fragment shaders
-		
-	O demo está localizado na pasta src/ri1.0
+[1]: /screenshots/1.png
+[2]: /screenshots/2.png
+[3]: /screenshots/3.png
+[4]: /screenshots/4.png
+[5]: /screenshots/5.png
 
-Last File Change - 5/06/2013
+# Demo
+
+The demo shows some of the features of RenderTRI:
+
+  * Vertex & Fragment shaders
+  * .obj loading
+
+It also has some basic texturing support.
+
+# Compilling
+
+Run:
+
+    make
+
+and to execute:
+
+    ./ri1.0
+
+some .obj files are provided so you can check out the renderings.
